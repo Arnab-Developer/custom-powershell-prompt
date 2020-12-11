@@ -1,3 +1,4 @@
+# Add this code to PowerShell Core profile.
 function prompt()
 {
 	$customPrompt = `
