@@ -1,0 +1,1 @@
+This is a sample PowerShell script to customize PowerShell Core prompt.
