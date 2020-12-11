@@ -1,4 +1,5 @@
 # Add this code to PowerShell Core profile.
+# This function has been called automatically by PowerShell.
 function prompt()
 {
 	$customPrompt = `
