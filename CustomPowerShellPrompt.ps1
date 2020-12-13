@@ -7,7 +7,8 @@ function prompt()
         $env:computername + " | " + `
         $env:username + " | " + `
         $(get-date -format "dd MMMM, dddd hh:mm tt") + " | " + `
-        $executioncontext.sessionstate.path.currentlocation + "" + `
+        $executioncontext.sessionstate.path.currentlocation + " " + `
+        $(git rev-parse --abbrev-ref HEAD) + "" + `
         [environment]::newline + "" + "> "
 	
     $customPrompt
