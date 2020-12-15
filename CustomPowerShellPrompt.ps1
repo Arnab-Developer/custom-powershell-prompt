@@ -3,7 +3,7 @@ Import-Module posh-git
 	
 $customPrompt = `
     [environment]::newline + "" + `
-	$env:computername + " | " + `
+    $env:computername + " | " + `
     $env:username + " | " + `
     $(get-date -format "dd MMMM, dddd hh:mm tt") + " |"
 
